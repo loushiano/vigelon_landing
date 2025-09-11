@@ -22,9 +22,10 @@
           class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
           >Platform</a
         >
-        <span
+        <a
+          href="#resources"
           class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
-          >Resources</span
+          >Resources</a
         >
       </nav>
       <a
