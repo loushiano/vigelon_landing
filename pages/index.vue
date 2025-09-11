@@ -4,7 +4,7 @@
     class="bg-black backdrop-blur-md px-6 py-4 flex justify-between items-center sticky top-0 z-50 border-b border-black"
   >
     <div class="flex items-center space-x-8">
-      <img src="/logo-with-name.png" alt="Vigelon Logo" class="w-48 h-14" />
+      <img src="/logo-with-name.png" alt="VIGELON Logo" class="w-60 h-15" />
     </div>
     <div class="flex items-center space-x-6">
       <nav class="hidden lg:flex space-x-8">
@@ -12,48 +12,31 @@
           <button
             class="flex items-center text-white hover:text-electric-blue font-medium transition-colors"
           >
-            Platform
+            Company
             <i class="fa-solid fa-chevron-down ml-2 text-xs"></i>
           </button>
         </div>
-        <div class="relative group">
-          <button
-            class="flex items-center text-white hover:text-electric-blue font-medium transition-colors"
-          >
-            Solutions
-            <i class="fa-solid fa-chevron-down ml-2 text-xs"></i>
-          </button>
-        </div>
-        <a
+
+
+        <span
           class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
-          href="#pricing"
-          >Pricing</a
+          >Platform</span
         >
         <span
           class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
           >Resources</span
         >
-        <span
-          class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
-          >Company</span
-        >
       </nav>
       <span
         class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
-        >Contact Sales</span
+        >Contact</span
       >
+
       <span
-        class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
+        class="bg-gray-50 bg-opacity-5 text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-blue-600 transition-colors cursor-pointer"
         >Sign In</span
       >
-      <span
-        class="bg-electric-blue text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-blue-600 transition-colors cursor-pointer"
-        >Request Demo</span
-      >
-      <span
-        class="bg-slate-dark text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-slate-700 transition-colors cursor-pointer"
-        >Get Early Access</span
-      >
+
     </div>
   </header>
 
@@ -71,23 +54,23 @@
 
     <div class="relative z-10 pt-16 pl-8 md:pl-16 max-w-6xl">
       <h1
-        class="text-5xl md:text-7xl font-orbitron font-bold text-white leading-tight mb-8"
+        class="text-5xl md:text-7xl font-inter font-bold text-white leading-tight mb-8"
       >
-        Know Before<br />
-        <span class="gradient-text">You Fly</span><br />
+        Maximizing Airtime,<br />
+        <span class="text-white">Minimizing Surprises.</span><br/>
         <span class="text-4xl md:text-5xl font-inter font-light text-white">
-          Predictive Fleet Intelligence<br />for Drones &amp; eVTOLs
+          Predictive Maintenance <br />for Drones &amp; eVTOLs
         </span>
       </h1>
 
       <div
-        class="w-24 h-1 bg-gradient-to-r from-electric-blue to-cyan-bright mb-8"
+        class="w-24 h-1 bg-gray-50 from-electric-blue to-cyan-bright mb-8"
       ></div>
 
       <p class="text-white text-xl md:text-2xl mb-12 max-w-3xl leading-relaxed">
-        Reduce downtime, extend battery life, and stay audit-ready — all in one
+        Cut downtime, extend battery life, and stay fleet ready — all in one
         platform.
-        <span class="text-cyan-bright font-semibold"
+        <span class=" bg-black font-semibold"
           >Our AI predicts failures before they happen</span
         >, keeping your fleet airborne and profitable.
       </p>
@@ -96,30 +79,25 @@
         class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mb-16"
       >
         <span
-          class="inline-flex items-center bg-electric-blue text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-600 transition-all hover-lift pulse-glow cursor-pointer"
+          class="inline-flex items-center bg-black text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-600 transition-all hover-lift pulse-glow cursor-pointer"
         >
           <i class="fa-solid fa-play mr-3"></i>
           Request a Demo
         </span>
-        <span
-          class="inline-flex items-center border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-slate-dark transition-all hover-lift cursor-pointer"
-        >
-          <i class="fa-solid fa-cogs mr-3"></i>
-          See How It Works
-        </span>
+
       </div>
 
       <div class="flex items-center space-x-12 text-white/80">
         <div class="text-center">
-          <div class="text-3xl font-bold text-electric-blue">30%</div>
+          <div class="text-3xl font-bold text-white">30%</div>
           <div class="text-sm">Longer Battery Life</div>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-electric-blue">40%</div>
+          <div class="text-3xl font-bold text-white">40%</div>
           <div class="text-sm">Less Downtime</div>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-electric-blue">5x</div>
+          <div class="text-3xl font-bold text-white">5x</div>
           <div class="text-sm">ROI First Year</div>
         </div>
       </div>
@@ -222,18 +200,18 @@
 
   <section
     id="solution"
-    class="py-24 bg-slate-dark text-white relative overflow-hidden"
+    class="py-24 bg-black text-white relative overflow-hidden"
   >
     <div class="absolute inset-0 tech-grid opacity-20"></div>
 
     <div class="container mx-auto px-6 relative z-10">
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-orbitron font-bold mb-6">
-          The <span class="gradient-text">Vigelon</span> Advantage
+          The <span class="white-text">VIGELON</span> Advantage
         </h2>
         <p class="text-2xl text-gray-300 mb-4">
           We don't just manage maintenance —
-          <span class="text-electric-blue font-semibold">we predict it.</span>
+          <span class="text-white font-semibold">we predict it.</span>
         </p>
         <p class="text-xl text-gray-400 max-w-3xl mx-auto">
           Our AI-powered platform transforms reactive maintenance into
@@ -245,9 +223,9 @@
       <div class="grid lg:grid-cols-3 gap-12 mb-16">
         <div class="text-center group">
           <div
-            class="w-24 h-24 bg-gradient-to-br from-electric-blue to-cyan-bright rounded-full flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform"
+            class="w-24 h-24 bg-gray-50 from-electric-blue to-cyan-bright rounded-full flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform"
           >
-            <i class="fa-solid fa-crystal-ball text-white text-3xl"></i>
+            <i class="fa-solid fa-crystal-ball text-black text-3xl"></i>
           </div>
           <h3 class="text-2xl font-bold mb-4 font-orbitron">
             Predictive Maintenance
@@ -258,32 +236,32 @@
           </p>
           <ul class="text-left text-gray-400 space-y-2">
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Real-time
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Real-time
               anomaly detection
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Failure
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Failure
               probability scoring
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Component
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Component
               lifecycle tracking
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Weather
-              impact analysis
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Replacement part 
+              lead time
             </li>
           </ul>
         </div>
 
         <div class="text-center group">
           <div
-            class="w-24 h-24 bg-gradient-to-br from-electric-blue to-cyan-bright rounded-full flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform"
+            class="w-24 h-24 bg-gray-50 from-electric-blue to-cyan-bright rounded-full flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform"
           >
-            <i class="fa-solid fa-cogs text-white text-3xl"></i>
+            <i class="fa-solid fa-cogs text-black text-3xl"></i>
           </div>
           <h3 class="text-2xl font-bold mb-4 font-orbitron">
-            Automated Workflows
+            Adaptive AI 
           </h3>
           <p class="text-gray-300 text-lg mb-6">
             Seamlessly coordinate work orders, parts inventory, and technician
@@ -292,19 +270,19 @@
           </p>
           <ul class="text-left text-gray-400 space-y-2">
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Smart
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Smart
               work order generation
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Parts
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Parts
               procurement automation
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i
               >Technician scheduling optimization
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Mobile
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Mobile
               maintenance app
             </li>
           </ul>
@@ -312,9 +290,9 @@
 
         <div class="text-center group">
           <div
-            class="w-24 h-24 bg-gradient-to-br from-electric-blue to-cyan-bright rounded-full flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform"
+            class="w-24 h-24 bg-gray-50 from-electric-blue to-cyan-bright rounded-full flex items-center justify-center mx-auto mb-8 group-hover:scale-110 transition-transform"
           >
-            <i class="fa-solid fa-chart-line text-white text-3xl"></i>
+            <i class="fa-solid fa-chart-line text-black text-3xl"></i>
           </div>
           <h3 class="text-2xl font-bold mb-4 font-orbitron">
             Flight Test Platform
@@ -326,19 +304,19 @@
           </p>
           <ul class="text-left text-gray-400 space-y-2">
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Live
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Live
               telemetry streaming
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Automated
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Automated
               flight readiness checks
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i
               >Performance benchmarking
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i
               >Regulatory compliance reporting
             </li>
           </ul>
@@ -353,7 +331,7 @@
         <h2
           class="text-4xl md:text-5xl font-orbitron font-bold text-slate-dark mb-6"
         >
-          See <span class="gradient-text">Vigelon</span> in Action
+          See <span class="black">VIGELON</span> in Action
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
           Our platform provides complete visibility into your fleet operations
@@ -460,7 +438,7 @@
 
   <section
     id="roi-value"
-    class="py-24 bg-gradient-to-br from-electric-blue to-cyan-bright text-white"
+    class="py-24 bg-black from-electric-blue to-cyan-bright text-white"
   >
     <div class="container mx-auto px-6">
       <div class="text-center mb-16">
@@ -509,54 +487,6 @@
         </div>
       </div>
 
-      <div class="bg-white/10 backdrop-blur-md rounded-xl p-8">
-        <div class="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <h3 class="text-3xl font-bold mb-6">With Vigelon vs. Without</h3>
-            <div class="space-y-4">
-              <div class="flex justify-between items-center">
-                <span>Fleet Availability</span>
-                <div class="flex items-center space-x-4">
-                  <div class="text-red-400">65%</div>
-                  <i class="fa-solid fa-arrow-right"></i>
-                  <div class="text-green-400 font-bold">95%</div>
-                </div>
-              </div>
-              <div class="flex justify-between items-center">
-                <span>Maintenance Costs</span>
-                <div class="flex items-center space-x-4">
-                  <div class="text-red-400">$2.5M</div>
-                  <i class="fa-solid fa-arrow-right"></i>
-                  <div class="text-green-400 font-bold">$1.5M</div>
-                </div>
-              </div>
-              <div class="flex justify-between items-center">
-                <span>Unplanned Failures</span>
-                <div class="flex items-center space-x-4">
-                  <div class="text-red-400">24/year</div>
-                  <i class="fa-solid fa-arrow-right"></i>
-                  <div class="text-green-400 font-bold">3/year</div>
-                </div>
-              </div>
-              <div class="flex justify-between items-center">
-                <span>Admin Hours</span>
-                <div class="flex items-center space-x-4">
-                  <div class="text-red-400">40hrs/week</div>
-                  <i class="fa-solid fa-arrow-right"></i>
-                  <div class="text-green-400 font-bold">8hrs/week</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="bg-white/20 rounded-lg p-6">
-            <img
-              class="w-full h-64 object-cover rounded"
-              src="https://storage.googleapis.com/uxpilot-auth.appspot.com/0ed50d45d3-f398faeb8cafc5ea41de.png"
-              alt="comparative bar chart showing fleet performance improvements with Vigelon platform, before and after metrics, uptime statistics, cost savings visualization"
-            />
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -570,7 +500,7 @@
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
           From agriculture to urban air mobility, leading organizations trust
-          Vigelon to keep their fleets operational and compliant.
+          VIGELON to keep their fleets operational and compliant.
         </p>
       </div>
 
@@ -658,9 +588,8 @@
             </div>
           </div>
           <blockquote class="text-2xl text-slate-dark font-medium mb-6">
-            "Vigelon reduced our downtime by 22% in the first 3 months. The
-            predictive insights have completely transformed how we manage our
-            fleet maintenance operations."
+            "Vigelon is currently implementing AI for our maintenance operations and it's transformed how we manage our
+            fleet maintenance, the dashboards are straight to the point, with clear visibility on maintenance prediction"
           </blockquote>
           <div class="flex items-center justify-center space-x-4">
             <img
@@ -669,9 +598,9 @@
               class="w-12 h-12 rounded-full"
             />
             <div class="text-left">
-              <div class="font-semibold text-slate-dark">Marcus Rodriguez</div>
-              <div class="text-gray-600">Fleet Operations Director</div>
-              <div class="text-sm text-gray-500">SkyLogistics Inc.</div>
+              <div class="font-semibold text-slate-dark">Marcus Harris</div>
+              <div class="text-gray-600">Operations Director</div>
+              <div class="text-sm text-gray-500">SMG Inc.</div>
             </div>
           </div>
         </div>
@@ -681,7 +610,7 @@
 
   <section
     id="mid-cta"
-    class="py-24 bg-slate-dark text-white relative overflow-hidden"
+    class="py-24 bg-black text-white relative overflow-hidden"
   >
     <div class="absolute inset-0 tech-grid opacity-10"></div>
 
@@ -718,7 +647,7 @@
             </select>
             <button
               type="submit"
-              class="bg-electric-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
+              class="bg-gray-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
             >
               Get Early Access
             </button>
@@ -729,7 +658,7 @@
           class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6"
         >
           <span
-            class="inline-flex items-center bg-electric-blue text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-600 transition-all hover-lift cursor-pointer"
+            class="inline-flex items-center bg-gray-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-600 transition-all hover-lift cursor-pointer"
           >
             <i class="fa-solid fa-calendar mr-3"></i>
             Book a Demo
@@ -738,7 +667,7 @@
             class="inline-flex items-center text-white hover:text-electric-blue transition-colors cursor-pointer"
           >
             <i class="fa-solid fa-phone mr-3"></i>
-            Speak with Sales: +1 (555) 123-4567
+            Speak with Support: +1 (438) 435-3196
           </span>
         </div>
       </div>
@@ -755,16 +684,16 @@
             Building the Predictive Backbone for Electric Aviation
           </h2>
           <p class="text-xl text-gray-600 mb-8">
-            At Vigelon, we believe the future of aviation is electric,
+            At VIGELON, we believe the future of aviation is electric,
             autonomous, and intelligent. Our mission is to provide the
             predictive infrastructure that makes this future possible.
           </p>
           <div class="space-y-6">
             <div class="flex items-start">
               <div
-                class="w-12 h-12 bg-electric-blue/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
+                class="w-12 h-12 bg-gray-50 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
               >
-                <i class="fa-solid fa-rocket text-electric-blue text-xl"></i>
+                <i class="fa-solid fa-rocket bg-gray-50 text-xl"></i>
               </div>
               <div>
                 <h3 class="text-xl font-bold text-slate-dark mb-2">
@@ -778,9 +707,9 @@
             </div>
             <div class="flex items-start">
               <div
-                class="w-12 h-12 bg-electric-blue/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
+                class="w-12 h-12 bg-gray-50 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
               >
-                <i class="fa-solid fa-brain text-electric-blue text-xl"></i>
+                <i class="fa-solid fa-brain bg-gray-50 text-xl"></i>
               </div>
               <div>
                 <h3 class="text-xl font-bold text-slate-dark mb-2">
@@ -794,10 +723,10 @@
             </div>
             <div class="flex items-start">
               <div
-                class="w-12 h-12 bg-electric-blue/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
+                class="w-12 h-12 bg-gray-50 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
               >
                 <i
-                  class="fa-solid fa-shield-alt text-electric-blue text-xl"
+                  class="fa-solid fa-shield-alt bg-gray-50 text-xl"
                 ></i>
               </div>
               <div>
@@ -823,51 +752,105 @@
 
       <div class="bg-gray-50 rounded-xl p-8">
         <h3 class="text-3xl font-bold text-slate-dark mb-8 text-center">
-          Leadership Team
+          The Team
         </h3>
         <div class="grid md:grid-cols-3 gap-8">
           <div class="text-center">
-            <img
-              src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-3.jpg"
+            <img src="/taleb.png"
               alt="CEO"
               class="w-24 h-24 rounded-full mx-auto mb-4"
             />
-            <h4 class="text-xl font-bold text-slate-dark">Dr. Sarah Chen</h4>
-            <p class="text-electric-blue font-medium mb-2">
+            <h4 class="text-xl font-bold text-slate-dark">Ali Taleb</h4>
+            <p class="text-black font-medium mb-2">
               CEO &amp; Co-Founder
             </p>
             <p class="text-gray-600 text-sm">
-              Former Boeing 787 Systems Engineer, PhD in Aerospace Engineering
-              from MIT
+              Former Archer Avionics Engineer with patents in flight deck systems and product ownership of the Auxiliary Control Panels; later drove $500K+ in eVTOL engineering services sales at Fawtal              
             </p>
           </div>
           <div class="text-center">
             <img
-              src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-4.jpg"
+              src="/fawaz.png"
               alt="CTO"
               class="w-24 h-24 rounded-full mx-auto mb-4"
             />
-            <h4 class="text-xl font-bold text-slate-dark">Michael Torres</h4>
-            <p class="text-electric-blue font-medium mb-2">
+            <h4 class="text-xl font-bold text-slate-dark">Ali Fawaz</h4>
+            <p class="text-black font-medium mb-2">
               CTO &amp; Co-Founder
             </p>
             <p class="text-gray-600 text-sm">
-              Ex-NASA JPL Mission Systems, 15+ years in aerospace software
-              architecture
+                Former Software Specialist at Accenture, expert in predictive maintenance software implementation. Built applications for startups and leads software consulting projects              
             </p>
           </div>
-          <div class="text-center">
+
+                    <div class="text-center">
             <img
-              src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-2.jpg"
-              alt="VP Engineering"
+              src="/solowka.png"
+              alt="CEO"
               class="w-24 h-24 rounded-full mx-auto mb-4"
             />
-            <h4 class="text-xl font-bold text-slate-dark">David Park</h4>
-            <p class="text-electric-blue font-medium mb-2">VP Engineering</p>
+            <h4 class="text-xl font-bold text-slate-dark">Eric Solowka</h4>
+            <p class="text-black font-medium mb-2">
+              Advisor
+            </p>
             <p class="text-gray-600 text-sm">
-              Former SpaceX Avionics Lead, Expert in real-time flight systems
+           40+ years leadership experience; Co-Founder Atlantis Aerospace, Director at Thales, Founding Partner iXY Leadership           </p>
+          </div>
+
+                    <div class="text-center">
+            <img
+              src="/Azamskyi.png"
+              alt="CEO"
+              class="w-24 h-24 rounded-full mx-auto mb-4"
+            />
+            <h4 class="text-xl font-bold text-slate-dark">Jacob Azamskyi</h4>
+            <p class="text-black font-medium mb-2">
+              Software Developer
+            </p>
+            <p class="text-gray-600 text-sm">
+              Former Software Developer at SmartClick Solutions
             </p>
           </div>
+
+
+                                                  <div class="text-center">
+            <img
+              src="/norwood.png"
+              alt="CEO"
+              class="w-24 h-24 rounded-full mx-auto mb-4"
+            />
+            <h4 class="text-xl font-bold text-slate-dark">Raffaello Norwood</h4>
+            <p class="text-black font-medium mb-2">
+              Software Developer 
+            </p>
+            <p class="text-gray-600 text-sm">
+              Junior Software Developer at Fawtal Consulting
+            </p>
+          </div>
+
+                              <div class="text-center">
+            <img
+              src="/hamren.png"
+              alt="CEO"
+              class="w-24 h-24 rounded-full mx-auto mb-4"
+            />
+            <h4 class="text-xl font-bold text-slate-dark">John Hamren</h4>
+            <p class="text-black font-medium mb-2">
+              Customer Success Manager
+            </p>
+            <p class="text-gray-600 text-sm">
+              Former Sales Manager & Go-To-Market Strategy Specialist at FitX
+            </p>
+          </div>
+
+
+
+          
+
+          
+
+          
+
         </div>
       </div>
     </div>
@@ -875,7 +858,7 @@
 
   <section
     id="technology"
-    class="py-24 bg-gradient-to-br from-slate-dark to-navy text-white"
+    class="py-24 bg-gradient-to-br from-black to-navy text-white"
   >
     <div class="container mx-auto px-6">
       <div class="text-center mb-16">
@@ -893,7 +876,7 @@
           class="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center hover-lift"
         >
           <div
-            class="w-16 h-16 bg-gradient-to-br from-electric-blue to-cyan-bright rounded-lg flex items-center justify-center mx-auto mb-4"
+            class="w-16 h-16 bg-black from-electric-blue to-cyan-bright rounded-lg flex items-center justify-center mx-auto mb-4"
           >
             <i class="fa-solid fa-cloud text-white text-2xl"></i>
           </div>
@@ -907,13 +890,13 @@
           class="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center hover-lift"
         >
           <div
-            class="w-16 h-16 bg-gradient-to-br from-electric-blue to-cyan-bright rounded-lg flex items-center justify-center mx-auto mb-4"
+            class="w-16 h-16 bg-black from-electric-blue to-cyan-bright rounded-lg flex items-center justify-center mx-auto mb-4"
           >
             <i class="fa-solid fa-lock text-white text-2xl"></i>
           </div>
-          <h3 class="text-lg font-bold mb-2">SOC 2 Compliant</h3>
+          <h3 class="text-lg font-bold mb-2">Record Control</h3>
           <p class="text-gray-300 text-sm">
-            Enterprise security with end-to-end encryption
+            Transport Canada & FAA Maintenance Documentation Compliance
           </p>
         </div>
 
@@ -921,7 +904,7 @@
           class="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center hover-lift"
         >
           <div
-            class="w-16 h-16 bg-gradient-to-br from-electric-blue to-cyan-bright rounded-lg flex items-center justify-center mx-auto mb-4"
+            class="w-16 h-16 bg-black from-electric-blue to-cyan-bright rounded-lg flex items-center justify-center mx-auto mb-4"
           >
             <i class="fa-solid fa-mobile-alt text-white text-2xl"></i>
           </div>
@@ -935,7 +918,7 @@
           class="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center hover-lift"
         >
           <div
-            class="w-16 h-16 bg-gradient-to-br from-electric-blue to-cyan-bright rounded-lg flex items-center justify-center mx-auto mb-4"
+            class="w-16 h-16 bg-black from-electric-blue to-cyan-bright rounded-lg flex items-center justify-center mx-auto mb-4"
           >
             <i class="fa-solid fa-plug text-white text-2xl"></i>
           </div>
@@ -951,19 +934,19 @@
           <h3 class="text-2xl font-bold mb-6">Machine Learning</h3>
           <ul class="space-y-3 text-gray-300">
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i
+              <i class="fa-solid fa-check text-black mr-3"></i
               >Predictive failure algorithms
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Anomaly
+              <i class="fa-solid fa-check text-black mr-3"></i>Anomaly
               detection models
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i
+              <i class="fa-solid fa-check text-black mr-3"></i
               >Performance optimization AI
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Natural
+              <i class="fa-solid fa-check text-black mr-3"></i>Natural
               language processing
             </li>
           </ul>
@@ -973,19 +956,19 @@
           <h3 class="text-2xl font-bold mb-6">Data Integration</h3>
           <ul class="space-y-3 text-gray-300">
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Real-time
+              <i class="fa-solid fa-check text-black mr-3"></i>Real-time
               telemetry streaming
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>IoT
+              <i class="fa-solid fa-check text-black mr-3"></i>IoT
               sensor networks
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Weather
+              <i class="fa-solid fa-check text-black mr-3"></i>Weather
               data integration
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i
+              <i class="fa-solid fa-check text-black mr-3"></i
               >Third-party system APIs
             </li>
           </ul>
@@ -995,19 +978,19 @@
           <h3 class="text-2xl font-bold mb-6">Compliance</h3>
           <ul class="space-y-3 text-gray-300">
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>FAA Part
-              145 ready
+              <i class="fa-solid fa-check text-black mr-3"></i>FAA Part
+              145 Integration
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>EASA
+              <i class="fa-solid fa-check text-black mr-3"></i>EASA
               compliance support
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>ISO 9001
+              <i class="fa-solid fa-check text-black mr-3"></i>ISO 9001
               documentation
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-electric-blue mr-3"></i>Audit
+              <i class="fa-solid fa-check text-black mr-3"></i>Audit
               trail management
             </li>
           </ul>
@@ -1016,181 +999,7 @@
     </div>
   </section>
 
-  <section id="pricing" class="py-24 bg-white">
-    <div class="container mx-auto px-6">
-      <div class="text-center mb-16">
-        <h2
-          class="text-4xl md:text-5xl font-orbitron font-bold text-slate-dark mb-6"
-        >
-          Choose Your Plan
-        </h2>
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Flexible pricing that scales with your fleet size and operational
-          needs. Start with our free trial and upgrade as you grow.
-        </p>
-      </div>
-
-      <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-        <div class="border border-gray-200 rounded-xl p-8 hover-lift">
-          <div class="text-center mb-8">
-            <h3 class="text-2xl font-bold text-slate-dark mb-4">Starter</h3>
-            <div class="text-4xl font-orbitron font-bold text-slate-dark mb-2">
-              $99
-            </div>
-            <div class="text-gray-500">per aircraft/month</div>
-            <div class="text-sm text-gray-400 mt-2">
-              For fleets of 1-10 aircraft
-            </div>
-          </div>
-          <ul class="space-y-4 mb-8">
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Basic
-              predictive maintenance
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Work order
-              management
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Mobile app
-              access
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Email support
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Basic
-              reporting
-            </li>
-          </ul>
-          <span
-            class="block w-full bg-gray-100 text-slate-dark text-center py-3 rounded-lg font-semibold hover:bg-gray-200 transition-colors cursor-pointer"
-          >
-            Start Free Trial
-          </span>
-        </div>
-
-        <div
-          class="border-2 border-electric-blue rounded-xl p-8 hover-lift relative"
-        >
-          <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
-            <span
-              class="bg-electric-blue text-white px-4 py-1 rounded-full text-sm font-semibold"
-              >Most Popular</span
-            >
-          </div>
-          <div class="text-center mb-8">
-            <h3 class="text-2xl font-bold text-slate-dark mb-4">
-              Professional
-            </h3>
-            <div class="text-4xl font-orbitron font-bold text-slate-dark mb-2">
-              $199
-            </div>
-            <div class="text-gray-500">per aircraft/month</div>
-            <div class="text-sm text-gray-400 mt-2">
-              For fleets of 11-50 aircraft
-            </div>
-          </div>
-          <ul class="space-y-4 mb-8">
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Advanced
-              predictive analytics
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Automated
-              workflows
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Flight test
-              platform
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Priority
-              support
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Advanced
-              reporting &amp; analytics
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>API access
-            </li>
-          </ul>
-          <span
-            class="block w-full bg-electric-blue text-white text-center py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors cursor-pointer"
-          >
-            Start Free Trial
-          </span>
-        </div>
-
-        <div class="border border-gray-200 rounded-xl p-8 hover-lift">
-          <div class="text-center mb-8">
-            <h3 class="text-2xl font-bold text-slate-dark mb-4">Enterprise</h3>
-            <div class="text-4xl font-orbitron font-bold text-slate-dark mb-2">
-              Custom
-            </div>
-            <div class="text-gray-500">volume pricing</div>
-            <div class="text-sm text-gray-400 mt-2">
-              For fleets of 50+ aircraft
-            </div>
-          </div>
-          <ul class="space-y-4 mb-8">
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Full platform
-              access
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Custom
-              integrations
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Dedicated
-              support team
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Custom
-              reporting
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>On-premise
-              deployment
-            </li>
-            <li class="flex items-center">
-              <i class="fa-solid fa-check text-green-500 mr-3"></i>Training
-              &amp; onboarding
-            </li>
-          </ul>
-          <span
-            class="block w-full bg-slate-dark text-white text-center py-3 rounded-lg font-semibold hover:bg-slate-700 transition-colors cursor-pointer"
-          >
-            Contact Sales
-          </span>
-        </div>
-      </div>
-
-      <div class="text-center mt-12">
-        <p class="text-gray-600 mb-4">
-          All plans include 30-day free trial • No setup fees • Cancel anytime
-        </p>
-        <div
-          class="flex justify-center items-center space-x-8 text-sm text-gray-500"
-        >
-          <div class="flex items-center">
-            <i class="fa-solid fa-shield-alt text-electric-blue mr-2"></i>SOC 2
-            Compliant
-          </div>
-          <div class="flex items-center">
-            <i class="fa-solid fa-lock text-electric-blue mr-2"></i>Bank-level
-            Security
-          </div>
-          <div class="flex items-center">
-            <i class="fa-solid fa-headset text-electric-blue mr-2"></i>24/7
-            Support
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
   <section id="resources" class="py-24 bg-gray-50">
     <div class="container mx-auto px-6">
@@ -1202,16 +1011,16 @@
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
           Everything you need to get started and maximize your success with
-          Vigelon.
+          VIGELON.
         </p>
       </div>
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div class="bg-white rounded-xl p-8 shadow-lg hover-lift">
           <div
-            class="w-16 h-16 bg-electric-blue/20 rounded-lg flex items-center justify-center mb-6"
+            class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-6"
           >
-            <i class="fa-solid fa-book text-electric-blue text-2xl"></i>
+            <i class="fa-solid fa-book bg-gray-50 text-2xl"></i>
           </div>
           <h3 class="text-xl font-bold text-slate-dark mb-4">Documentation</h3>
           <p class="text-gray-600 mb-6">
@@ -1219,16 +1028,16 @@
             fleet management.
           </p>
           <span
-            class="text-electric-blue font-semibold hover:text-blue-600 cursor-pointer"
+            class="bg-gray-50 font-semibold hover:text-blue-600 cursor-pointer"
             >Read Docs →</span
           >
         </div>
 
         <div class="bg-white rounded-xl p-8 shadow-lg hover-lift">
           <div
-            class="w-16 h-16 bg-electric-blue/20 rounded-lg flex items-center justify-center mb-6"
+            class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-6"
           >
-            <i class="fa-solid fa-video text-electric-blue text-2xl"></i>
+            <i class="fa-solid fa-video bg-gray-50 text-2xl"></i>
           </div>
           <h3 class="text-xl font-bold text-slate-dark mb-4">
             Video Tutorials
@@ -1238,16 +1047,16 @@
             platform.
           </p>
           <span
-            class="text-electric-blue font-semibold hover:text-blue-600 cursor-pointer"
+            class="bg-gray-50 font-semibold hover:text-blue-600 cursor-pointer"
             >Watch Videos →</span
           >
         </div>
 
         <div class="bg-white rounded-xl p-8 shadow-lg hover-lift">
           <div
-            class="w-16 h-16 bg-electric-blue/20 rounded-lg flex items-center justify-center mb-6"
+            class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-6"
           >
-            <i class="fa-solid fa-users text-electric-blue text-2xl"></i>
+            <i class="fa-solid fa-users bg-gray-50 text-2xl"></i>
           </div>
           <h3 class="text-xl font-bold text-slate-dark mb-4">
             Community Forum
@@ -1257,17 +1066,17 @@
             insights.
           </p>
           <span
-            class="text-electric-blue font-semibold hover:text-blue-600 cursor-pointer"
+            class="bg-gray-50 font-semibold hover:text-blue-600 cursor-pointer"
             >Join Community →</span
           >
         </div>
 
         <div class="bg-white rounded-xl p-8 shadow-lg hover-lift">
           <div
-            class="w-16 h-16 bg-electric-blue/20 rounded-lg flex items-center justify-center mb-6"
+            class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-6"
           >
             <i
-              class="fa-solid fa-graduation-cap text-electric-blue text-2xl"
+              class="fa-solid fa-graduation-cap bg-gray-50 text-2xl"
             ></i>
           </div>
           <h3 class="text-xl font-bold text-slate-dark mb-4">
@@ -1278,16 +1087,16 @@
             and ROI.
           </p>
           <span
-            class="text-electric-blue font-semibold hover:text-blue-600 cursor-pointer"
+            class="bg-gray-50 font-semibold hover:text-blue-600 cursor-pointer"
             >Learn More →</span
           >
         </div>
 
         <div class="bg-white rounded-xl p-8 shadow-lg hover-lift">
           <div
-            class="w-16 h-16 bg-electric-blue/20 rounded-lg flex items-center justify-center mb-6"
+            class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-6"
           >
-            <i class="fa-solid fa-headset text-electric-blue text-2xl"></i>
+            <i class="fa-solid fa-headset bg-gray-50 text-2xl"></i>
           </div>
           <h3 class="text-xl font-bold text-slate-dark mb-4">24/7 Support</h3>
           <p class="text-gray-600 mb-6">
@@ -1295,24 +1104,24 @@
             smoothly.
           </p>
           <span
-            class="text-electric-blue font-semibold hover:text-blue-600 cursor-pointer"
+            class="bg-gray-50 font-semibold hover:text-blue-600 cursor-pointer"
             >Contact Support →</span
           >
         </div>
 
         <div class="bg-white rounded-xl p-8 shadow-lg hover-lift">
           <div
-            class="w-16 h-16 bg-electric-blue/20 rounded-lg flex items-center justify-center mb-6"
+            class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-6"
           >
-            <i class="fa-solid fa-chart-line text-electric-blue text-2xl"></i>
+            <i class="fa-solid fa-chart-line bg-gray-50 text-2xl"></i>
           </div>
           <h3 class="text-xl font-bold text-slate-dark mb-4">ROI Calculator</h3>
           <p class="text-gray-600 mb-6">
             Calculate your potential savings and return on investment with
-            Vigelon.
+            VIGELON.
           </p>
           <span
-            class="text-electric-blue font-semibold hover:text-blue-600 cursor-pointer"
+            class="bg-gray-50 font-semibold hover:text-blue-600 cursor-pointer"
             >Calculate ROI →</span
           >
         </div>
@@ -1320,17 +1129,14 @@
     </div>
   </section>
 
-  <footer id="footer" class="bg-slate-dark text-white py-16">
+  <footer id="footer" class="bg-black text-white py-16">
     <div class="container mx-auto px-6">
       <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
         <div class="lg:col-span-2">
           <div class="flex items-center mb-6">
-            <div
-              class="w-10 h-10 bg-gradient-to-br from-electric-blue to-cyan-bright rounded-lg flex items-center justify-center mr-3"
-            >
-              <i class="fa-solid fa-helicopter text-white text-lg"></i>
-            </div>
-            <span class="font-orbitron font-bold text-xl">Vigelon</span>
+
+            
+            <img src="/logo-with-name.png" alt="VIGELON Logo" class="w-60 h-15" />
           </div>
           <p class="text-gray-300 mb-6 max-w-md">
             Building the predictive backbone for electric aviation. Know before
@@ -1356,43 +1162,8 @@
           </div>
         </div>
 
-        <div>
-          <h3 class="font-semibold text-lg mb-4">Platform</h3>
-          <ul class="space-y-3 text-gray-300">
-            <li>
-              <span
-                class="hover:text-electric-blue transition-colors cursor-pointer"
-                >Predictive Maintenance</span
-              >
-            </li>
-            <li>
-              <span
-                class="hover:text-electric-blue transition-colors cursor-pointer"
-                >Flight Test Platform</span
-              >
-            </li>
-            <li>
-              <span
-                class="hover:text-electric-blue transition-colors cursor-pointer"
-                >Work Order Management</span
-              >
-            </li>
-            <li>
-              <span
-                class="hover:text-electric-blue transition-colors cursor-pointer"
-                >Analytics &amp; Reporting</span
-              >
-            </li>
-            <li>
-              <span
-                class="hover:text-electric-blue transition-colors cursor-pointer"
-                >Mobile Apps</span
-              >
-            </li>
-          </ul>
-        </div>
 
-        <div>
+                <div>
           <h3 class="font-semibold text-lg mb-4">Company</h3>
           <ul class="space-y-3 text-gray-300">
             <li>
@@ -1429,32 +1200,44 @@
         </div>
 
         <div>
-          <h3 class="font-semibold text-lg mb-4">Support</h3>
+          <h3 class="font-semibold text-lg mb-4">Platform</h3>
           <ul class="space-y-3 text-gray-300">
             <li>
               <span
                 class="hover:text-electric-blue transition-colors cursor-pointer"
-                >Help Center</span
+                >Predictive Maintenance</span
               >
             </li>
             <li>
               <span
                 class="hover:text-electric-blue transition-colors cursor-pointer"
-                >Documentation</span
+                >Flight Test Platform</span
               >
             </li>
             <li>
               <span
                 class="hover:text-electric-blue transition-colors cursor-pointer"
-                >API Reference</span
+                >Work Order Management</span
               >
             </li>
             <li>
               <span
                 class="hover:text-electric-blue transition-colors cursor-pointer"
-                >System Status</span
+                >Analytics &amp; Reporting</span
               >
             </li>
+
+          </ul>
+        </div>
+
+
+
+        <div>
+          <h3 class="font-semibold text-lg mb-4">Support</h3>
+          <ul class="space-y-3 text-gray-300">
+
+
+
             <li>
               <span
                 class="hover:text-electric-blue transition-colors cursor-pointer"
@@ -1469,7 +1252,7 @@
         class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center"
       >
         <div class="text-gray-400 text-sm mb-4 md:mb-0">
-          © 2024 Vigelon Technologies, Inc. All rights reserved.
+          © 2025 VIGELON, Inc. All rights reserved.
         </div>
         <div class="flex space-x-6 text-sm text-gray-400">
           <span
@@ -1745,6 +1528,10 @@ onMounted(() => {
   backdrop-filter: blur(10px);
   background: rgba(255, 255, 255, 0.1);
 }
+.text-red {
+    color: #00eeffff;
+  }
+
 .hover-lift {
   transition: transform 0.3s ease;
 }
@@ -1757,10 +1544,10 @@ onMounted(() => {
 @keyframes pulse-glow {
   0%,
   100% {
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 0 20px rgba(11, 12, 14, 0.3);
   }
   50% {
-    box-shadow: 0 0 40px rgba(59, 130, 246, 0.6);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.6);
   }
 }
 .tech-grid {

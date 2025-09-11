@@ -15,14 +15,14 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Vigelon - Drone & EVTOL Solutions',
+      title: 'VIGELON - Drone & EVTOL Solutions',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'Experience the future of digital solutions with our cutting-edge platform.' }
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: '/favi-novo.png' }
+        { rel: 'icon', type: 'image/png', href: '/logo-no-name.png' }
       ]
     },
     
