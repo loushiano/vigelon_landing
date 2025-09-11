@@ -9,34 +9,34 @@
     <div class="flex items-center space-x-6">
       <nav class="hidden lg:flex space-x-8">
         <div class="relative group">
-          <button
+          <a
+            href="#about"
             class="flex items-center text-white hover:text-electric-blue font-medium transition-colors"
           >
             Company
-            <i class="fa-solid fa-chevron-down ml-2 text-xs"></i>
-          </button>
+          </a>
         </div>
 
-
-        <span
+        <a
+          href="#product-showcase"
           class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
-          >Platform</span
+          >Platform</a
         >
         <span
           class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
           >Resources</span
         >
       </nav>
-      <span
+      <a
+        href="#contact"
         class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
-        >Contact</span
+        >Contact</a
       >
 
       <span
         class="bg-gray-50 bg-opacity-5 text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-blue-600 transition-colors cursor-pointer"
         >Sign In</span
       >
-
     </div>
   </header>
 
@@ -57,7 +57,7 @@
         class="text-5xl md:text-7xl font-inter font-bold text-white leading-tight mb-8"
       >
         Maximizing Airtime,<br />
-        <span class="text-white">Minimizing Surprises.</span><br/>
+        <span class="text-white">Minimizing Surprises.</span><br />
         <span class="text-4xl md:text-5xl font-inter font-light text-white">
           Predictive Maintenance <br />for Drones &amp; eVTOLs
         </span>
@@ -70,7 +70,7 @@
       <p class="text-white text-xl md:text-2xl mb-12 max-w-3xl leading-relaxed">
         Cut downtime, extend battery life, and stay fleet ready — all in one
         platform.
-        <span class=" bg-black font-semibold"
+        <span class="bg-black font-semibold"
           >Our AI predicts failures before they happen</span
         >, keeping your fleet airborne and profitable.
       </p>
@@ -84,7 +84,6 @@
           <i class="fa-solid fa-play mr-3"></i>
           Request a Demo
         </span>
-
       </div>
 
       <div class="flex items-center space-x-12 text-white/80">
@@ -248,8 +247,8 @@
               lifecycle tracking
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Replacement part 
-              lead time
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Replacement
+              part lead time
             </li>
           </ul>
         </div>
@@ -260,9 +259,7 @@
           >
             <i class="fa-solid fa-cogs text-black text-3xl"></i>
           </div>
-          <h3 class="text-2xl font-bold mb-4 font-orbitron">
-            Adaptive AI 
-          </h3>
+          <h3 class="text-2xl font-bold mb-4 font-orbitron">Adaptive AI</h3>
           <p class="text-gray-300 text-lg mb-6">
             Seamlessly coordinate work orders, parts inventory, and technician
             schedules. Everything syncs automatically when maintenance is
@@ -270,16 +267,16 @@
           </p>
           <ul class="text-left text-gray-400 space-y-2">
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Smart
-              work order generation
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Smart work
+              order generation
             </li>
             <li class="flex items-center">
               <i class="fa-solid fa-check text-gray-50 mr-3"></i>Parts
               procurement automation
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i
-              >Technician scheduling optimization
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Technician
+              scheduling optimization
             </li>
             <li class="flex items-center">
               <i class="fa-solid fa-check text-gray-50 mr-3"></i>Mobile
@@ -304,20 +301,20 @@
           </p>
           <ul class="text-left text-gray-400 space-y-2">
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Live
-              telemetry streaming
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Live telemetry
+              streaming
             </li>
             <li class="flex items-center">
               <i class="fa-solid fa-check text-gray-50 mr-3"></i>Automated
               flight readiness checks
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i
-              >Performance benchmarking
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Performance
+              benchmarking
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i
-              >Regulatory compliance reporting
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Regulatory
+              compliance reporting
             </li>
           </ul>
         </div>
@@ -486,7 +483,6 @@
           </p>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -588,8 +584,10 @@
             </div>
           </div>
           <blockquote class="text-2xl text-slate-dark font-medium mb-6">
-            "Vigelon is currently implementing AI for our maintenance operations and it's transformed how we manage our
-            fleet maintenance, the dashboards are straight to the point, with clear visibility on maintenance prediction"
+            "Vigelon is currently implementing AI for our maintenance operations
+            and it's transformed how we manage our fleet maintenance, the
+            dashboards are straight to the point, with clear visibility on
+            maintenance prediction"
           </blockquote>
           <div class="flex items-center justify-center space-x-4">
             <img
@@ -609,7 +607,7 @@
   </section>
 
   <section
-    id="mid-cta"
+    id="contact"
     class="py-24 bg-black text-white relative overflow-hidden"
   >
     <div class="absolute inset-0 tech-grid opacity-10"></div>
@@ -625,18 +623,26 @@
         </p>
 
         <div class="bg-white/10 backdrop-blur-md rounded-xl p-8 mb-8">
-          <form class="grid md:grid-cols-4 gap-4">
+          <form
+            @submit.prevent="handleEarlyAccessSubmit"
+            class="grid md:grid-cols-4 gap-4"
+          >
             <input
+              v-model="earlyAccessForm.name"
               type="text"
               placeholder="Full Name"
+              required
               class="px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-gray-300 focus:outline-none focus:border-electric-blue"
             />
             <input
+              v-model="earlyAccessForm.email"
               type="email"
               placeholder="Email Address"
+              required
               class="px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white placeholder-gray-300 focus:outline-none focus:border-electric-blue"
             />
             <select
+              v-model="earlyAccessForm.fleetSize"
               class="px-4 py-3 rounded-lg bg-white/20 border border-white/30 text-white focus:outline-none focus:border-electric-blue"
             >
               <option value="">Fleet Size</option>
@@ -647,22 +653,32 @@
             </select>
             <button
               type="submit"
-              class="bg-gray-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
+              :disabled="isEarlyAccessSubmitting"
+              class="bg-gray-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              Get Early Access
+              {{ isEarlyAccessSubmitting ? "Sending..." : "Get Early Access" }}
             </button>
           </form>
+
+          <!-- Success/Error Message -->
+          <div
+            v-if="earlyAccessStatus.message"
+            class="mt-4 p-4 rounded-lg"
+            :class="
+              earlyAccessStatus.success
+                ? 'bg-green-500/20 border border-green-500/30'
+                : 'bg-red-500/20 border border-red-500/30'
+            "
+          >
+            <p class="text-white text-center">
+              {{ earlyAccessStatus.message }}
+            </p>
+          </div>
         </div>
 
         <div
           class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6"
         >
-          <span
-            class="inline-flex items-center bg-gray-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-600 transition-all hover-lift cursor-pointer"
-          >
-            <i class="fa-solid fa-calendar mr-3"></i>
-            Book a Demo
-          </span>
           <span
             class="inline-flex items-center text-white hover:text-electric-blue transition-colors cursor-pointer"
           >
@@ -725,9 +741,7 @@
               <div
                 class="w-12 h-12 bg-gray-50 rounded-lg flex items-center justify-center mr-4 flex-shrink-0"
               >
-                <i
-                  class="fa-solid fa-shield-alt bg-gray-50 text-xl"
-                ></i>
+                <i class="fa-solid fa-shield-alt bg-gray-50 text-xl"></i>
               </div>
               <div>
                 <h3 class="text-xl font-bold text-slate-dark mb-2">
@@ -756,16 +770,17 @@
         </h3>
         <div class="grid md:grid-cols-3 gap-8">
           <div class="text-center">
-            <img src="/taleb.png"
+            <img
+              src="/taleb.png"
               alt="CEO"
               class="w-24 h-24 rounded-full mx-auto mb-4"
             />
             <h4 class="text-xl font-bold text-slate-dark">Ali Taleb</h4>
-            <p class="text-black font-medium mb-2">
-              CEO &amp; Co-Founder
-            </p>
+            <p class="text-black font-medium mb-2">CEO &amp; Co-Founder</p>
             <p class="text-gray-600 text-sm">
-              Former Archer Avionics Engineer with patents in flight deck systems and product ownership of the Auxiliary Control Panels; later drove $500K+ in eVTOL engineering services sales at Fawtal              
+              Former Archer Avionics Engineer with patents in flight deck
+              systems and product ownership of the Auxiliary Control Panels;
+              later drove $500K+ in eVTOL engineering services sales at Fawtal
             </p>
           </div>
           <div class="text-center">
@@ -775,82 +790,66 @@
               class="w-24 h-24 rounded-full mx-auto mb-4"
             />
             <h4 class="text-xl font-bold text-slate-dark">Ali Fawaz</h4>
-            <p class="text-black font-medium mb-2">
-              CTO &amp; Co-Founder
-            </p>
+            <p class="text-black font-medium mb-2">CTO &amp; Co-Founder</p>
             <p class="text-gray-600 text-sm">
-                Former Software Specialist at Accenture, expert in predictive maintenance software implementation. Built applications for startups and leads software consulting projects              
+              Former Software Specialist at Accenture, expert in predictive
+              maintenance software implementation. Built applications for
+              startups and leads software consulting projects
             </p>
           </div>
 
-                    <div class="text-center">
+          <div class="text-center">
             <img
               src="/solowka.png"
               alt="CEO"
               class="w-24 h-24 rounded-full mx-auto mb-4"
             />
             <h4 class="text-xl font-bold text-slate-dark">Eric Solowka</h4>
-            <p class="text-black font-medium mb-2">
-              Advisor
-            </p>
+            <p class="text-black font-medium mb-2">Advisor</p>
             <p class="text-gray-600 text-sm">
-           40+ years leadership experience; Co-Founder Atlantis Aerospace, Director at Thales, Founding Partner iXY Leadership           </p>
+              40+ years leadership experience; Co-Founder Atlantis Aerospace,
+              Director at Thales, Founding Partner iXY Leadership
+            </p>
           </div>
 
-                    <div class="text-center">
+          <div class="text-center">
             <img
-              src="/Azamskyi.png"
+              src="/azamskyi.png"
               alt="CEO"
               class="w-24 h-24 rounded-full mx-auto mb-4"
             />
             <h4 class="text-xl font-bold text-slate-dark">Jacob Azamskyi</h4>
-            <p class="text-black font-medium mb-2">
-              Software Developer
-            </p>
+            <p class="text-black font-medium mb-2">Software Developer</p>
             <p class="text-gray-600 text-sm">
               Former Software Developer at SmartClick Solutions
             </p>
           </div>
 
-
-                                                  <div class="text-center">
+          <div class="text-center">
             <img
               src="/norwood.png"
               alt="CEO"
               class="w-24 h-24 rounded-full mx-auto mb-4"
             />
             <h4 class="text-xl font-bold text-slate-dark">Raffaello Norwood</h4>
-            <p class="text-black font-medium mb-2">
-              Software Developer 
-            </p>
+            <p class="text-black font-medium mb-2">Software Developer</p>
             <p class="text-gray-600 text-sm">
               Junior Software Developer at Fawtal Consulting
             </p>
           </div>
 
-                              <div class="text-center">
+          <div class="text-center">
             <img
               src="/hamren.png"
               alt="CEO"
               class="w-24 h-24 rounded-full mx-auto mb-4"
             />
             <h4 class="text-xl font-bold text-slate-dark">John Hamren</h4>
-            <p class="text-black font-medium mb-2">
-              Customer Success Manager
-            </p>
+            <p class="text-black font-medium mb-2">Customer Success Manager</p>
             <p class="text-gray-600 text-sm">
               Former Sales Manager & Go-To-Market Strategy Specialist at FitX
             </p>
           </div>
-
-
-
-          
-
-          
-
-          
-
         </div>
       </div>
     </div>
@@ -934,20 +933,20 @@
           <h3 class="text-2xl font-bold mb-6">Machine Learning</h3>
           <ul class="space-y-3 text-gray-300">
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-black mr-3"></i
-              >Predictive failure algorithms
+              <i class="fa-solid fa-check text-black mr-3"></i>Predictive
+              failure algorithms
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-black mr-3"></i>Anomaly
-              detection models
+              <i class="fa-solid fa-check text-black mr-3"></i>Anomaly detection
+              models
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-black mr-3"></i
-              >Performance optimization AI
+              <i class="fa-solid fa-check text-black mr-3"></i>Performance
+              optimization AI
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-black mr-3"></i>Natural
-              language processing
+              <i class="fa-solid fa-check text-black mr-3"></i>Natural language
+              processing
             </li>
           </ul>
         </div>
@@ -960,16 +959,16 @@
               telemetry streaming
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-black mr-3"></i>IoT
-              sensor networks
+              <i class="fa-solid fa-check text-black mr-3"></i>IoT sensor
+              networks
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-black mr-3"></i>Weather
-              data integration
+              <i class="fa-solid fa-check text-black mr-3"></i>Weather data
+              integration
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-black mr-3"></i
-              >Third-party system APIs
+              <i class="fa-solid fa-check text-black mr-3"></i>Third-party
+              system APIs
             </li>
           </ul>
         </div>
@@ -978,28 +977,26 @@
           <h3 class="text-2xl font-bold mb-6">Compliance</h3>
           <ul class="space-y-3 text-gray-300">
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-black mr-3"></i>FAA Part
-              145 Integration
+              <i class="fa-solid fa-check text-black mr-3"></i>FAA Part 145
+              Integration
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-black mr-3"></i>EASA
-              compliance support
+              <i class="fa-solid fa-check text-black mr-3"></i>EASA compliance
+              support
             </li>
             <li class="flex items-center">
               <i class="fa-solid fa-check text-black mr-3"></i>ISO 9001
               documentation
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-black mr-3"></i>Audit
-              trail management
+              <i class="fa-solid fa-check text-black mr-3"></i>Audit trail
+              management
             </li>
           </ul>
         </div>
       </div>
     </div>
   </section>
-
- 
 
   <section id="resources" class="py-24 bg-gray-50">
     <div class="container mx-auto px-6">
@@ -1075,9 +1072,7 @@
           <div
             class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-6"
           >
-            <i
-              class="fa-solid fa-graduation-cap bg-gray-50 text-2xl"
-            ></i>
+            <i class="fa-solid fa-graduation-cap bg-gray-50 text-2xl"></i>
           </div>
           <h3 class="text-xl font-bold text-slate-dark mb-4">
             Training Program
@@ -1134,9 +1129,11 @@
       <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
         <div class="lg:col-span-2">
           <div class="flex items-center mb-6">
-
-            
-            <img src="/logo-with-name.png" alt="VIGELON Logo" class="w-60 h-15" />
+            <img
+              src="/logo-with-name.png"
+              alt="VIGELON Logo"
+              class="w-60 h-15"
+            />
           </div>
           <p class="text-gray-300 mb-6 max-w-md">
             Building the predictive backbone for electric aviation. Know before
@@ -1144,26 +1141,28 @@
             mission-ready.
           </p>
           <div class="flex space-x-4">
-            <span
+            <a
+              href="https://www.linkedin.com/company/108417366"
               class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-electric-blue transition-colors cursor-pointer"
             >
               <i class="fa-brands fa-linkedin text-lg"></i>
-            </span>
-            <span
+            </a>
+            <a
+              href="https://x.com/VIGEL_ON"
               class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-electric-blue transition-colors cursor-pointer"
             >
               <i class="fa-brands fa-twitter text-lg"></i>
-            </span>
-            <span
+            </a>
+            <a
+              href="https://www.youtube.com/@VIGELON"
               class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-electric-blue transition-colors cursor-pointer"
             >
               <i class="fa-brands fa-youtube text-lg"></i>
-            </span>
+            </a>
           </div>
         </div>
 
-
-                <div>
+        <div>
           <h3 class="font-semibold text-lg mb-4">Company</h3>
           <ul class="space-y-3 text-gray-300">
             <li>
@@ -1226,18 +1225,12 @@
                 >Analytics &amp; Reporting</span
               >
             </li>
-
           </ul>
         </div>
-
-
 
         <div>
           <h3 class="font-semibold text-lg mb-4">Support</h3>
           <ul class="space-y-3 text-gray-300">
-
-
-
             <li>
               <span
                 class="hover:text-electric-blue transition-colors cursor-pointer"
@@ -1288,8 +1281,20 @@ const form = ref({
   message: "",
 });
 
+const earlyAccessForm = ref({
+  name: "",
+  email: "",
+  fleetSize: "",
+});
+
 const isSubmitting = ref(false);
 const submitStatus = ref({
+  success: false,
+  message: "",
+});
+
+const isEarlyAccessSubmitting = ref(false);
+const earlyAccessStatus = ref({
   success: false,
   message: "",
 });
@@ -1353,6 +1358,58 @@ const handleSubmit = async () => {
     };
   } finally {
     isSubmitting.value = false;
+  }
+};
+
+const handleEarlyAccessSubmit = async () => {
+  try {
+    isEarlyAccessSubmitting.value = true;
+    earlyAccessStatus.value = { success: false, message: "" };
+
+    // Validate form
+    if (!earlyAccessForm.value.name || !earlyAccessForm.value.email) {
+      throw new Error("Please fill in all required fields");
+    }
+
+    // Prepare data for API
+    const formData = {
+      name: earlyAccessForm.value.name,
+      email: earlyAccessForm.value.email,
+      company: earlyAccessForm.value.fleetSize
+        ? `Fleet Size: ${earlyAccessForm.value.fleetSize}`
+        : "",
+      message:
+        "Early Access Request - I'm interested in joining the early access program for VIGELON's predictive maintenance platform.",
+    };
+
+    // Send form data to API
+    const response = await $fetch("/api/contact", {
+      method: "POST",
+      body: formData,
+    });
+
+    if (response.status === 200) {
+      earlyAccessStatus.value = {
+        success: true,
+        message:
+          "Thank you for your interest! We'll be in touch soon with early access details.",
+      };
+      // Reset form
+      earlyAccessForm.value = {
+        name: "",
+        email: "",
+        fleetSize: "",
+      };
+    } else {
+      throw new Error(response.message || "Failed to send request");
+    }
+  } catch (error) {
+    earlyAccessStatus.value = {
+      success: false,
+      message: error.message || "Something went wrong. Please try again.",
+    };
+  } finally {
+    isEarlyAccessSubmitting.value = false;
   }
 };
 
@@ -1529,8 +1586,8 @@ onMounted(() => {
   background: rgba(255, 255, 255, 0.1);
 }
 .text-red {
-    color: #00eeffff;
-  }
+  color: #00eeffff;
+}
 
 .hover-lift {
   transition: transform 0.3s ease;
