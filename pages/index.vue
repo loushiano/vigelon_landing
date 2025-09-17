@@ -6,38 +6,104 @@
     <div class="flex items-center space-x-8">
       <img src="/logo-with-name.png" alt="VIGELON Logo" class="w-60 h-15" />
     </div>
-    <div class="flex items-center space-x-6">
-      <nav class="hidden lg:flex space-x-8">
-        <div class="relative group">
-          <a
-            href="#about"
-            class="flex items-center text-white hover:text-electric-blue font-medium transition-colors"
-          >
-            Company
-          </a>
-        </div>
+    
+    <!-- Desktop Navigation -->
+    <nav class="hidden lg:flex space-x-8 items-center">
+      <div class="relative group">
+        <a
+          href="#about"
+          class="flex items-center text-white hover:text-electric-blue font-medium transition-colors"
+        >
+          Company
+        </a>
+      </div>
 
-        <a
-          href="#product-showcase"
-          class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
-          >Platform</a
-        >
-        <a
-          href="#resources"
-          class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
-          >Resources</a
-        >
-        <a
-          href="#contact"
-          class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
-          >Contact</a
-        >
-      </nav>
-
+      <a
+        href="#product-showcase"
+        class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
+        >Platform</a
+      >
+      <a
+        href="#resources"
+        class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
+        >Resources</a
+      >
+      <a
+        href="#contact"
+        class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
+        >Contact</a
+      >
       <span
         class="md:w-auto w-16 md:text-base text-xs text-center bg-gray-50 bg-opacity-5 text-white md:px-6 px-1 md:py-2.5 py-1 rounded-lg font-semibold hover:bg-blue-600 transition-colors cursor-pointer"
         >Sign In</span
       >
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <div class="lg:hidden flex items-center space-x-4">
+    
+      <button
+        @click="toggleMobileMenu"
+        class="text-white hover:text-electric-blue transition-colors p-2"
+        aria-label="Toggle mobile menu"
+      >
+        <div class="w-6 h-6 flex flex-col justify-center items-center">
+          <span
+            class="block w-6 h-0.5 bg-current transform transition duration-300 ease-in-out"
+            :class="{ 'rotate-45 translate-y-1.5': isMobileMenuOpen }"
+          ></span>
+          <span
+            class="block w-6 h-0.5 bg-current mt-1 transform transition duration-300 ease-in-out"
+            :class="{ 'opacity-0': isMobileMenuOpen }"
+          ></span>
+          <span
+            class="block w-6 h-0.5 bg-current mt-1 transform transition duration-300 ease-in-out"
+            :class="{ '-rotate-45 -translate-y-1.5': isMobileMenuOpen }"
+          ></span>
+        </div>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <div
+      v-show="isMobileMenuOpen"
+      class="lg:hidden absolute top-full left-0 right-0 bg-black backdrop-blur-md border-b border-gray-800 shadow-lg"
+      @click="closeMobileMenu"
+    >
+      <nav class="px-6 py-4 space-y-4">
+        <span
+        class="bg-gray-50 bg-opacity-5 text-white px-3 py-1 rounded-lg font-semibold hover:bg-blue-600 transition-colors cursor-pointer text-xs"
+        >Sign In</span
+      >
+        <a
+          href="#about"
+          class="block text-white hover:text-electric-blue font-medium transition-colors py-2"
+          @click="closeMobileMenu"
+        >
+          Company
+        </a>
+        <a
+          href="#product-showcase"
+          class="block text-white hover:text-electric-blue font-medium transition-colors py-2"
+          @click="closeMobileMenu"
+        >
+          Platform
+        </a>
+        <a
+          href="#resources"
+          class="block text-white hover:text-electric-blue font-medium transition-colors py-2"
+          @click="closeMobileMenu"
+        >
+          Resources
+        </a>
+        <a
+          href="#contact"
+          class="block text-white hover:text-electric-blue font-medium transition-colors py-2"
+          @click="closeMobileMenu"
+        >
+          Contact
+        </a>
+      </nav>
     </div>
   </header>
 
@@ -1278,6 +1344,8 @@
 import { ref, onMounted } from "vue";
 
 const isDark = ref(false);
+const isMobileMenuOpen = ref(false);
+
 const form = ref({
   name: "",
   email: "",
@@ -1322,6 +1390,14 @@ const playVideo = () => {
 const toggleDarkMode = () => {
   isDark.value = !isDark.value;
   document.documentElement.classList.toggle("dark");
+};
+
+const toggleMobileMenu = () => {
+  isMobileMenuOpen.value = !isMobileMenuOpen.value;
+};
+
+const closeMobileMenu = () => {
+  isMobileMenuOpen.value = false;
 };
 
 const handleSubmit = async () => {
@@ -1419,20 +1495,36 @@ const handleEarlyAccessSubmit = async () => {
 
 // Video player functionality
 onMounted(() => {
-  // Mobile Menu Toggle (if needed in the future)
-  // const mobileMenuButton = document.getElementById("mobile-menu-button");
-  // const mobileMenu = document.getElementById("mobile-menu");
-
   // Sticky Header
   const header = document.getElementById("header");
 
   window.addEventListener("scroll", () => {
+    // Close mobile menu on scroll
+    if (isMobileMenuOpen.value) {
+      closeMobileMenu();
+    }
+    
     if (window.scrollY > 100) {
       header.classList.add("py-2");
       header.classList.add("shadow-md");
     } else {
       header.classList.remove("py-2");
       header.classList.remove("shadow-md");
+    }
+  });
+
+  // Close mobile menu when clicking outside
+  document.addEventListener("click", (e) => {
+    const header = document.getElementById("header");
+    if (isMobileMenuOpen.value && !header.contains(e.target)) {
+      closeMobileMenu();
+    }
+  });
+
+  // Close mobile menu on escape key
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && isMobileMenuOpen.value) {
+      closeMobileMenu();
     }
   });
 
