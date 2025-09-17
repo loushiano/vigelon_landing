@@ -1,7 +1,7 @@
 <template>
   <header
     id="header"
-    class="bg-black backdrop-blur-md px-6 py-4 flex justify-between items-center sticky top-0 z-50 border-b border-black"
+    class="bg-black backdrop-blur-md md:px-6 px-2 py-4 flex justify-between items-center sticky top-0 z-50 border-b border-black"
   >
     <div class="flex items-center space-x-8">
       <img src="/logo-with-name.png" alt="VIGELON Logo" class="w-60 h-15" />
@@ -27,39 +27,42 @@
           class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
           >Resources</a
         >
+        <a
+          href="#contact"
+          class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
+          >Contact</a
+        >
       </nav>
-      <a
-        href="#contact"
-        class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
-        >Contact</a
-      >
 
       <span
-        class="bg-gray-50 bg-opacity-5 text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-blue-600 transition-colors cursor-pointer"
+        class="md:w-auto w-16 md:text-base text-xs text-center bg-gray-50 bg-opacity-5 text-white md:px-6 px-1 md:py-2.5 py-1 rounded-lg font-semibold hover:bg-blue-600 transition-colors cursor-pointer"
         >Sign In</span
       >
     </div>
   </header>
 
-  <section id="hero" class="relative h-[900px] overflow-hidden">
+  <section id="hero" class="relative min-h-[900px] overflow-hidden">
     <div class="absolute inset-0 z-0">
       <video
         src="/hero-video.mp4"
         autoplay
         loop
         muted
+        playsinline
+        webkit-playsinline
+        preload="auto"
         class="w-full h-full object-cover"
       ></video>
       <div class="absolute inset-0 bg-black bg-opacity-50"></div>
     </div>
 
-    <div class="relative z-10 pt-16 pl-8 md:pl-16 max-w-6xl">
+    <div class="relative z-10 pt-16 pl-4 md:pl-16 max-w-6xl">
       <h1
-        class="text-5xl md:text-7xl font-inter font-bold text-white leading-tight mb-8"
+        class="text-3xl md:text-7xl font-inter font-bold text-white leading-tight mb-8"
       >
         Maximizing Airtime,<br />
         <span class="text-white">Minimizing Surprises.</span><br />
-        <span class="text-4xl md:text-5xl font-inter font-light text-white">
+        <span class="text-xl md:text-5xl font-inter font-light text-white">
           Predictive Maintenance <br />for Drones &amp; eVTOLs
         </span>
       </h1>
@@ -76,29 +79,29 @@
         >, keeping your fleet airborne and profitable.
       </p>
 
-      <div
-        class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 mb-16"
-      >
-        <span
+      <div class="flex flex-row space-y-4 md:space-y-0 md:space-x-6 mb-16">
+        <a
+          href="https://calendly.com/ali-taleb1101/30min"
+          target="_blank"
           class="inline-flex items-center bg-black text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-600 transition-all hover-lift pulse-glow cursor-pointer"
         >
           <i class="fa-solid fa-play mr-3"></i>
           Request a Demo
-        </span>
+        </a>
       </div>
 
       <div class="flex items-center space-x-12 text-white/80">
         <div class="text-center">
-          <div class="text-3xl font-bold text-white">30%</div>
-          <div class="text-sm">Longer Battery Life</div>
+          <div class="text-base md:text-3xl font-bold text-white">30%</div>
+          <div class="text-xs md:text-sm">Longer Battery Life</div>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-white">40%</div>
-          <div class="text-sm">Less Downtime</div>
+          <div class="text-base md:text-3xl font-bold text-white">40%</div>
+          <div class="text-xs md:text-sm">Less Downtime</div>
         </div>
         <div class="text-center">
-          <div class="text-3xl font-bold text-white">5x</div>
-          <div class="text-sm">ROI First Year</div>
+          <div class="text-base md:text-3xl font-bold text-white">5x</div>
+          <div class="text-xs md:text-sm">ROI First Year</div>
         </div>
       </div>
     </div>
