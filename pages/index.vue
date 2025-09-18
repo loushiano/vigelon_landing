@@ -6,7 +6,7 @@
     <div class="flex items-center space-x-8">
       <img src="/logo-with-name.png" alt="VIGELON Logo" class="w-60 h-15" />
     </div>
-    
+
     <!-- Desktop Navigation -->
     <nav class="hidden lg:flex space-x-8 items-center">
       <div class="relative group">
@@ -33,15 +33,15 @@
         class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
         >Contact</a
       >
-      <span
+      <a
+        href="https://app.vigelon.com"
         class="md:w-auto w-16 md:text-base text-xs text-center bg-gray-50 bg-opacity-5 text-white md:px-6 px-1 md:py-2.5 py-1 rounded-lg font-semibold hover:bg-blue-600 transition-colors cursor-pointer"
-        >Sign In</span
+        >Sign In</a
       >
     </nav>
 
     <!-- Mobile Menu Button -->
     <div class="lg:hidden flex items-center space-x-4">
-    
       <button
         @click="toggleMobileMenu"
         class="text-white hover:text-electric-blue transition-colors p-2"
@@ -71,10 +71,11 @@
       @click="closeMobileMenu"
     >
       <nav class="px-6 py-4 space-y-4">
-        <span
-        class="bg-gray-50 bg-opacity-5 text-white px-3 py-1 rounded-lg font-semibold hover:bg-blue-600 transition-colors cursor-pointer text-xs"
-        >Sign In</span
-      >
+        <a
+          href="https://app.vigelon.com"
+          class="bg-gray-50 bg-opacity-5 text-white px-3 py-1 rounded-lg font-semibold hover:bg-blue-600 transition-colors cursor-pointer text-xs"
+          >Sign In</a
+        >
         <a
           href="#about"
           class="block text-white hover:text-electric-blue font-medium transition-colors py-2"
@@ -1503,7 +1504,7 @@ onMounted(() => {
     if (isMobileMenuOpen.value) {
       closeMobileMenu();
     }
-    
+
     if (window.scrollY > 100) {
       header.classList.add("py-2");
       header.classList.add("shadow-md");
