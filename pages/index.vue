@@ -422,7 +422,7 @@
           <div class="bg-white rounded-lg p-6 shadow-lg">
             <img
               class="w-full h-64 object-cover rounded"
-              src="https://storage.googleapis.com/uxpilot-auth.appspot.com/7c489a4a0a-a81c13a6626840736960.png"
+              src="/FlightDeckDashboard.png"
               alt="modern aircraft maintenance dashboard interface with fleet status indicators, predictive maintenance alerts, battery health meters, flight readiness status"
             />
           </div>
@@ -445,7 +445,7 @@
           <div class="bg-white rounded-lg p-6 shadow-lg">
             <img
               class="w-full h-64 object-cover rounded"
-              src="https://storage.googleapis.com/uxpilot-auth.appspot.com/a6e0cdfa64-3be8f07bd5307fa50a51.png"
+              src="/Timeline.png"
               alt="predictive maintenance timeline interface showing aircraft service history, future maintenance predictions, component lifecycle charts, analytics graphs"
             />
           </div>
@@ -468,7 +468,7 @@
           <div class="bg-white rounded-lg p-6 shadow-lg">
             <img
               class="w-full h-64 object-cover rounded"
-              src="https://storage.googleapis.com/uxpilot-auth.appspot.com/8d15b4a1c7-e28d4f65fad254ac5bfc.png"
+              src="/WorkOrders.png"
               alt="kanban board interface for aircraft maintenance work orders, drag and drop task management, technician assignments, priority levels, status tracking"
             />
           </div>
@@ -491,7 +491,7 @@
           <div class="bg-white rounded-lg p-6 shadow-lg">
             <img
               class="w-full h-64 object-cover rounded"
-              src="https://storage.googleapis.com/uxpilot-auth.appspot.com/5b3ba0e426-82383edc6be370c1e518.png"
+              src="/ROI.png"
               alt="ROI analytics dashboard with cost savings charts, maintenance efficiency metrics, downtime reduction graphs, financial performance indicators"
             />
           </div>
@@ -892,20 +892,20 @@
             <h4 class="text-xl font-bold text-slate-dark">Jacob Azamskyi</h4>
             <p class="text-black font-medium mb-2">Software Developer</p>
             <p class="text-gray-600 text-sm">
-              Former Software Developer at SmartClick Solutions
+              Senior Software Developer at Vigelon
             </p>
           </div>
 
           <div class="text-center">
             <img
-              src="/norwood.png"
+              src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-1.jpg"
               alt="CEO"
               class="w-24 h-24 rounded-full mx-auto mb-4"
             />
-            <h4 class="text-xl font-bold text-slate-dark">Raffaello Norwood</h4>
+            <h4 class="text-xl font-bold text-slate-dark">Myriam Torres</h4>
             <p class="text-black font-medium mb-2">Software Developer</p>
             <p class="text-gray-600 text-sm">
-              Junior Software Developer at Fawtal Consulting
+              Junior Software Developer at Vigelon
             </p>
           </div>
 
