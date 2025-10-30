@@ -11,7 +11,7 @@
     <nav class="hidden lg:flex space-x-8 items-center">
       <div class="relative group">
         <a
-          href="#about"
+          href="#team"
           class="flex items-center text-white hover:text-electric-blue font-medium transition-colors"
         >
           Company
@@ -23,11 +23,7 @@
         class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
         >Platform</a
       >
-      <a
-        href="#resources"
-        class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
-        >Resources</a
-      >
+  
       <a
         href="#contact"
         class="text-white hover:text-electric-blue font-medium transition-colors cursor-pointer"
@@ -77,7 +73,7 @@
           >Sign In</a
         >
         <a
-          href="#about"
+          href="#team"
           class="block text-white hover:text-electric-blue font-medium transition-colors py-2"
           @click="closeMobileMenu"
         >
@@ -90,13 +86,7 @@
         >
           Platform
         </a>
-        <a
-          href="#resources"
-          class="block text-white hover:text-electric-blue font-medium transition-colors py-2"
-          @click="closeMobileMenu"
-        >
-          Resources
-        </a>
+     
         <a
           href="#contact"
           class="block text-white hover:text-electric-blue font-medium transition-colors py-2"
@@ -330,28 +320,22 @@
           >
             <i class="fa-solid fa-cogs text-black text-3xl"></i>
           </div>
-          <h3 class="text-2xl font-bold mb-4 font-orbitron">Adaptive AI</h3>
+          <h3 class="text-2xl font-bold mb-4 font-orbitron">Fleet Management</h3>
           <p class="text-gray-300 text-lg mb-6">
-            Seamlessly coordinate work orders, parts inventory, and technician
-            schedules. Everything syncs automatically when maintenance is
-            needed.
+            Control your fleet from one clean dashboard — aircraft, pilots, flights, and records all in sync.
           </p>
           <ul class="text-left text-gray-400 space-y-2">
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Smart work
-              order generation
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Live asset status and flight summaries
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Parts
-              procurement automation
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Work order and technician coordination
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Technician
-              scheduling optimization
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Inventory and parts usage tracking
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Mobile
-              maintenance app
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Role-based access for operators and engineers
             </li>
           </ul>
         </div>
@@ -363,29 +347,23 @@
             <i class="fa-solid fa-chart-line text-black text-3xl"></i>
           </div>
           <h3 class="text-2xl font-bold mb-4 font-orbitron">
-            Flight Test Platform
+            Compliance & Airworthiness
           </h3>
           <p class="text-gray-300 text-lg mb-6">
-            Real-time telemetry monitoring during test flights with instant
-            flight readiness reports. Know your aircraft status before every
-            mission.
+            Be BVLOS-ready and audit-proof with traceable maintenance and flight records.
           </p>
           <ul class="text-left text-gray-400 space-y-2">
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Live telemetry
-              streaming
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Automated logbooks and service histories
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Automated
-              flight readiness checks
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Authority-ready reporting (Part 43/145/65)
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Performance
-              benchmarking
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Certificate and document management
             </li>
             <li class="flex items-center">
-              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Regulatory
-              compliance reporting
+              <i class="fa-solid fa-check text-gray-50 mr-3"></i>Secure cloud audit trail
             </li>
           </ul>
         </div>
@@ -643,37 +621,7 @@
         </div>
       </div>
 
-      <div class="bg-gray-50 rounded-xl p-8 max-w-4xl mx-auto">
-        <div class="text-center mb-8">
-          <div class="flex justify-center items-center mb-4">
-            <div class="flex text-yellow-400">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </div>
-          </div>
-          <blockquote class="text-2xl text-slate-dark font-medium mb-6">
-            "Vigelon is currently implementing AI for our maintenance operations
-            and it's transformed how we manage our fleet maintenance, the
-            dashboards are straight to the point, with clear visibility on
-            maintenance prediction"
-          </blockquote>
-          <div class="flex items-center justify-center space-x-4">
-            <img
-              src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg"
-              alt="Customer"
-              class="w-12 h-12 rounded-full"
-            />
-            <div class="text-left">
-              <div class="font-semibold text-slate-dark">Marcus Harris</div>
-              <div class="text-gray-600">Operations Director</div>
-              <div class="text-sm text-gray-500">SMG Inc.</div>
-            </div>
-          </div>
-        </div>
-      </div>
+   
     </div>
   </section>
 
@@ -787,8 +735,7 @@
                   Aerospace Heritage
                 </h3>
                 <p class="text-gray-600">
-                  Founded by former Boeing and NASA engineers with decades of
-                  aviation experience.
+                  Founded by former Archer Avionics And Accenture Engineers with 10+ years of experience in the aerospace industry.
                 </p>
               </div>
             </div>
@@ -835,7 +782,7 @@
         </div>
       </div>
 
-      <div class="bg-gray-50 rounded-xl p-8">
+      <div class="bg-gray-50 rounded-xl p-8" id="team">
         <h3 class="text-3xl font-bold text-slate-dark mb-8 text-center">
           The Team
         </h3>
@@ -1069,127 +1016,20 @@
     </div>
   </section>
 
-  <section id="resources" class="py-24 bg-gray-50">
-    <div class="container mx-auto px-6">
-      <div class="text-center mb-16">
-        <h2
-          class="text-4xl md:text-5xl font-orbitron font-bold text-slate-dark mb-6"
+  <!-- Endless Rolling Image Bar -->
+  <section class="bg-white py-8 overflow-hidden my-20 ">
+    <div class="marquee-container">
+      <div class="marquee-track">
+        <div
+          v-for="(img, index) in [...partnerImages, ...partnerImages]"
+          :key="`img-${index}`"
+          class="marquee-item"
         >
-          Resources &amp; Support
-        </h2>
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Everything you need to get started and maximize your success with
-          VIGELON.
-        </p>
-      </div>
-
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-white rounded-xl p-8 shadow-lg hover-lift">
-          <div
-            class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-6"
-          >
-            <i class="fa-solid fa-book bg-gray-50 text-2xl"></i>
-          </div>
-          <h3 class="text-xl font-bold text-slate-dark mb-4">Documentation</h3>
-          <p class="text-gray-600 mb-6">
-            Comprehensive guides, API documentation, and best practices for
-            fleet management.
-          </p>
-          <span
-            class="bg-gray-50 font-semibold hover:text-blue-600 cursor-pointer"
-            >Read Docs →</span
-          >
-        </div>
-
-        <div class="bg-white rounded-xl p-8 shadow-lg hover-lift">
-          <div
-            class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-6"
-          >
-            <i class="fa-solid fa-video bg-gray-50 text-2xl"></i>
-          </div>
-          <h3 class="text-xl font-bold text-slate-dark mb-4">
-            Video Tutorials
-          </h3>
-          <p class="text-gray-600 mb-6">
-            Step-by-step video guides to help you get the most out of the
-            platform.
-          </p>
-          <span
-            class="bg-gray-50 font-semibold hover:text-blue-600 cursor-pointer"
-            >Watch Videos →</span
-          >
-        </div>
-
-        <div class="bg-white rounded-xl p-8 shadow-lg hover-lift">
-          <div
-            class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-6"
-          >
-            <i class="fa-solid fa-users bg-gray-50 text-2xl"></i>
-          </div>
-          <h3 class="text-xl font-bold text-slate-dark mb-4">
-            Community Forum
-          </h3>
-          <p class="text-gray-600 mb-6">
-            Connect with other fleet operators and share best practices and
-            insights.
-          </p>
-          <span
-            class="bg-gray-50 font-semibold hover:text-blue-600 cursor-pointer"
-            >Join Community →</span
-          >
-        </div>
-
-        <div class="bg-white rounded-xl p-8 shadow-lg hover-lift">
-          <div
-            class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-6"
-          >
-            <i class="fa-solid fa-graduation-cap bg-gray-50 text-2xl"></i>
-          </div>
-          <h3 class="text-xl font-bold text-slate-dark mb-4">
-            Training Program
-          </h3>
-          <p class="text-gray-600 mb-6">
-            Comprehensive training for your team to maximize platform adoption
-            and ROI.
-          </p>
-          <span
-            class="bg-gray-50 font-semibold hover:text-blue-600 cursor-pointer"
-            >Learn More →</span
-          >
-        </div>
-
-        <div class="bg-white rounded-xl p-8 shadow-lg hover-lift">
-          <div
-            class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-6"
-          >
-            <i class="fa-solid fa-headset bg-gray-50 text-2xl"></i>
-          </div>
-          <h3 class="text-xl font-bold text-slate-dark mb-4">24/7 Support</h3>
-          <p class="text-gray-600 mb-6">
-            Round-the-clock technical support to keep your operations running
-            smoothly.
-          </p>
-          <span
-            class="bg-gray-50 font-semibold hover:text-blue-600 cursor-pointer"
-            >Contact Support →</span
-          >
-        </div>
-
-        <div class="bg-white rounded-xl p-8 shadow-lg hover-lift">
-          <div
-            class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center mb-6"
-          >
-            <i class="fa-solid fa-chart-line bg-gray-50 text-2xl"></i>
-          </div>
-          <h3 class="text-xl font-bold text-slate-dark mb-4">ROI Calculator</h3>
-          <p class="text-gray-600 mb-6">
-            Calculate your potential savings and return on investment with
-            VIGELON.
-          </p>
-          <span
-            class="bg-gray-50 font-semibold hover:text-blue-600 cursor-pointer"
-            >Calculate ROI →</span
-          >
+          <img
+            :src="img"
+            :alt="`Partner ${index + 1}`"
+            class="h-16 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
+          />
         </div>
       </div>
     </div>
@@ -1375,6 +1215,14 @@ const earlyAccessStatus = ref({
 const videoPlayer = ref(null);
 const videoPlaceholder = ref(null);
 const isVideoPlaying = ref(false);
+
+const partnerImages = ref([
+  "/boundless-1.svg",
+  "idea-fund.png",
+  "banner3.png",
+  "banner2.png",
+  "banner4.jpg",
+]);
 
 const playVideo = () => {
   if (videoPlayer.value) {
@@ -1721,6 +1569,41 @@ onMounted(() => {
   }
   50% {
     transform: translateY(-20px);
+  }
+}
+
+/* Marquee Animation */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 4rem;
+  animation: marquee 30s linear infinite;
+  width: fit-content;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+.marquee-item {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
 </style>
